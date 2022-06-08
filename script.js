@@ -34,7 +34,7 @@ checkBtn.addEventListener('click', function() {
         document.querySelector('body').style.backgroundColor = '#60b347';
         number.textContent = randomNumber;
 
-        if (highScore.textContent <= score) {
+        if (highScore.textContent <= score.textContent) {
             highScore.textContent = score.textContent;
         }
     }
