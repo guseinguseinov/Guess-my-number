@@ -11,7 +11,7 @@ var randomNumber = 0;
 
 const getNewRandomNumber = function () {
     let guessingNumber = Math.floor(Math.random()*20 + 1);
-    console.log(guessingNumber);
+    console.log(guessingNumber); // to check
     randomNumber = guessingNumber;
 }
 
